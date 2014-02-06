@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"MyTitle" message:@"My Alert" delegate:nil cancelButtonTitle:@"確定" otherButtonTitles:nil, nil];
+    [alertView show];
 }
 
 - (void)didReceiveMemoryWarning
